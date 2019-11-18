@@ -11,8 +11,10 @@ files and stuff for my linux setup
 - [terminator](https://gnometerminator.blogspot.com/p/introduction.html)
 - [Arc Menu](https://www.fossmint.com/arc-menu-an-alternative-app-launcher-for-gnome-shell/)
 - [Numix Icons](https://github.com/numixproject/numix-icon-theme)
+- [vscode](https://code.visualstudio.com/docs/setup/linux)
+- redshift
 
 ## Necessary commands
 sudo ln -s $(pwd)/.vimrc $HOME/vimrc
 sudo ln -s $(pwd)/.zshrc $HOME/zshrc
-sudo ln -s $(pwd)/.zsh_aliases $HOME/zshrc_aliases
+sudo ln -s $(pwd)/.zsh_aliases $HOME/zsh_aliases

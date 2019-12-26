@@ -30,6 +30,10 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" plugins 
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+
 " Sets how many lines of history VIM has to remember
 set history=500
 

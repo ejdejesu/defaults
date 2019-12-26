@@ -8,7 +8,7 @@ export ZSH="/home/evan/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="evan"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -101,12 +101,6 @@ source ~/.zsh_aliases
 export JAVA_HOME=/usr/local/jdk1.8.0_121
 export PATH=$PATH:$JAVA_HOME/bin
 
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/home/evan/google-cloud-sdk/path.zsh.inc' ]; then . '/home/evan/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/home/evan/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/evan/google-cloud-sdk/completion.zsh.inc'; fi
-
 # change typing speed
 xset r rate 160 35
 
@@ -118,3 +112,9 @@ autoload -U compinit && compinit
 
 # vault defaults
 export VAULT_ADDR=https://vault.24g.dev
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/home/evan/google-cloud-sdk/path.zsh.inc' ]; then . '/home/evan/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/home/evan/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/evan/google-cloud-sdk/completion.zsh.inc'; fi

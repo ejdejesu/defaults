@@ -8,7 +8,7 @@ export ZSH="/home/evan/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="evan"
+ZSH_THEME="dieter"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -106,9 +106,6 @@ xset r rate 160 35
 
 # fuzzy finder
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-# kubectx and kubens autocompletion
-autoload -U compinit && compinit
 
 # vault defaults
 export VAULT_ADDR=https://vault.24g.dev

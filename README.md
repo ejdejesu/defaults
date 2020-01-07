@@ -19,4 +19,5 @@ files and stuff for my linux setup
 sudo ln -s $(pwd)/.vimrc $HOME/.vimrc
 sudo ln -s $(pwd)/.zshrc $HOME/.zshrc
 sudo ln -s $(pwd)/.zsh_aliases $HOME/.zsh_aliases
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```

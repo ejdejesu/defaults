@@ -13,6 +13,7 @@ files and stuff for my linux setup
 - [Numix Icons](https://github.com/numixproject/numix-icon-theme)
 - [vscode](https://code.visualstudio.com/docs/setup/linux)
 - redshift
+- [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono?selection.family=Roboto+Mono)
 
 ## Necessary commands
 ```

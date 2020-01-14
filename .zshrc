@@ -68,12 +68,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(
-	git
-	zsh-autosuggestions
-	kubectl
-	docker
-)
+plugins=( git zsh-autosuggestions kubectl docker)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -115,4 +110,11 @@ if [ -f '/home/evan/google-cloud-sdk/path.zsh.inc' ]; then . '/home/evan/google-
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/home/evan/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/evan/google-cloud-sdk/completion.zsh.inc'; fi
+
+# sam
 export SAM_CLI_TELEMETRY=0
+
+# docker 
+autoload -Uz compinit && compinit -i
+
+export PATH=$PATH:/opt/kubectx

@@ -4,11 +4,13 @@
 # Path to your oh-my-zsh installation.
 export ZSH="/home/evan/.oh-my-zsh"
 
+export PATH=/home/evan/google-cloud-sdk/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/evan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/go/bin:/home/evan/.fzf/bin:/opt/kubectx:/usr/local/jdk1.8.0_121/bin
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="dieter"
+ZSH_THEME="evan"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -68,7 +70,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=( git zsh-autosuggestions kubectl docker)
+plugins=( git zsh-autosuggestions kubectl docker )
 
 source $ZSH/oh-my-zsh.sh
 
@@ -114,7 +116,3 @@ if [ -f '/home/evan/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/evan/g
 # sam
 export SAM_CLI_TELEMETRY=0
 
-# docker 
-autoload -Uz compinit && compinit -i
-
-export PATH=$PATH:/opt/kubectx

@@ -4,7 +4,8 @@
 # Path to your oh-my-zsh installation.
 export ZSH="/home/evan/.oh-my-zsh"
 
-export PATH=/home/evan/google-cloud-sdk/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/evan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/go/bin:/home/evan/.fzf/bin:/opt/kubectx:/usr/local/jdk1.8.0_121/bin
+export GOPATH=$HOME/go
+export PATH=/home/evan/google-cloud-sdk/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/evan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/go/bin:/home/evan/.fzf/bin:/opt/kubectx:/usr/local/jdk1.8.0_121/bin:$GOPATH/bin
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
